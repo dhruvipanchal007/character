@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333333;
+  font-family: 'open sans', sans-serif;
+  font-size: 20px;
+  padding: 80px;
+  color: #666666;
+  overflow-x: hidden;
+}
+.bg-white {
+  background-color: #ffffff;
+  max-width: 600px;
+  height: 780px;
+  width: 100%;
+}
+.white-text {
+  padding: 140px 95px 0;
+  line-height: 2;
+}
+.bg-primary-dark {
+  background-color: #996666;
+}
+.m-top {
+  margin-top: 147px;
+  margin-bottom: 27px;
+}
+.inner-text {
+  padding: 70px 48px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.desktop-1 {
+  position: relative;
+  right: 20px;
+  bottom: 20px;
+}
+.img-1 {
+  max-width: 600px;
+  width: 100%;
+  margin-left: auto;
+  display: block;
+}
+
+.bg-purple {
+  background-color: #9999cc;
+  color: #ffffff;
+  padding: 67px 63px;
+  position: relative;
+  right: 60px;
+  top: 15px;
+}
+.desktop-3 {
+  max-width: 640px;
+  width: calc(100%+40px);
+}
+.bi {
+  font-size: 4em;
+  text-align: center;
+  display: block;
+}
+.bg-purple-text {
+  line-height: 2;
+}
+.purple-btn {
+  font-size: 17px;
+  font-weight: 600;
+  padding: 15px 35px;
+  color: #9999cc;
+  background-color: #ffffff;
+  border: none;
+  margin-top: 30px;
+  display: inline-block;
+}
+.text-right {
+  display: block;
+  text-align: right;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.qr-code {
+  width: 150px;
+  height: 150px;
+  margin: 30px 20px 30px 0;
+}
+.footer-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.footer-text-1 {
+  font-size: 16px;
+}
+.d-flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.width {
+  max-width: 1500px;
+  width: 100%;
+}
+.bg-pink {
+  background-color: #cc9999;
+  color: #ffffff;
+  padding: 67px 63px;
+}
+.bg-pink-heading {
+  font-size: 30px;
+}
+.bg-pink-para {
+  line-height: 40px;
+}
+.bg-pink-para em {
+  font-style: normal;
+  color: rgb(255, 255, 0);
+}
+.margin{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
